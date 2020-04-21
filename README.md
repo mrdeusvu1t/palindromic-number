@@ -4,4 +4,4 @@ Implement a recursive function that determines whether a given four-byte integer
 Please note the **Order** and **Timeout** attributes in unit tests.    
 If the runtime (in optimization mode) of the method more than indicate in test methods, determine how long your implementation works. A significant increase of time in the test cases may indicate an ineffective solution.
 
-*Tags - loops, integer operations, recursion*u
+*Tags - integer operations, recursion*
