@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PalindromeNumberTask
+namespace PalindromicNumberTask
 {
     /// <summary>
     /// Provides static method for working with integers.
@@ -8,14 +8,14 @@ namespace PalindromeNumberTask
     public static class NumbersExtension
     {
         /// <summary>
-        /// Determines if a number is a palindrome.
+        /// Determines if a number is a palindromic number, see https://en.wikipedia.org/wiki/Palindromic_number.
         /// </summary>
         /// <param name="number">Verified number.</param>
-        /// <returns>true if the verified number is palindrome; otherwise, false.</returns>
+        /// <returns>true if the verified number is palindromic number; otherwise, false.</returns>
         /// <exception cref="ArgumentOutOfRangeException">
         /// Thrown when number less or equal zero.
         /// </exception>
-        public static bool IsPalindrome(int number)
+        public static bool IsPalindromicNumber(int number)
         {
             throw new NotImplementedException("You need to implement this method.");
         }
