@@ -28,7 +28,7 @@ namespace PalindromicNumberTask.Tests
         [Test]
         public void IsPalindromicNumber_ThrowArgumentException_If_Number_Is_Less_Than_Zero() =>
             Assert.Throws<ArgumentException>(() => IsPalindromicNumber(-1234654321),
-                message: "number can not be less or equal zero");
+                message: "number cannot be less or equal zero");
 
         [Test]
         [Order(2)]
