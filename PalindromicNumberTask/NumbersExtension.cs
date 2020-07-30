@@ -12,9 +12,7 @@ namespace PalindromicNumberTask
         /// </summary>
         /// <param name="number">Verified number.</param>
         /// <returns>true if the verified number is palindromic number; otherwise, false.</returns>
-        /// <exception cref="ArgumentOutOfRangeException">
-        /// Thrown when number is less or equal zero.
-        /// </exception>
+        /// <exception cref="ArgumentOutOfRangeException"> Thrown when source number is less or equal zero. </exception>
         public static bool IsPalindromicNumber(int number)
         {
             throw new NotImplementedException("You need to implement this method.");
