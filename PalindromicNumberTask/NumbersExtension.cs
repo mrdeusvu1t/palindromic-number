@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace PalindromicNumberTask
 {
@@ -13,7 +13,7 @@ namespace PalindromicNumberTask
         /// <param name="number">Verified number.</param>
         /// <returns>true if the verified number is palindromic number; otherwise, false.</returns>
         /// <exception cref="ArgumentOutOfRangeException">
-        /// Thrown when number less or equal zero.
+        /// Thrown when number is less or equal zero.
         /// </exception>
         public static bool IsPalindromicNumber(int number)
         {
