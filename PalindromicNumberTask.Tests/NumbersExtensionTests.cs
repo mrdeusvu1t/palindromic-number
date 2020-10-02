@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using NUnit.Framework;
 using static PalindromicNumberTask.NumbersExtension;
 
@@ -29,7 +29,7 @@ namespace PalindromicNumberTask.Tests
 
         [Test]
         public void IsPalindromicNumber_IfNumberIsLessThanZero_ThrowArgumentException() =>
-            Assert.Throws<ArgumentException>(() => IsPalindromicNumber(-1234654321), message: "number cannot be less or equal zero");
+            Assert.Throws<ArgumentException>(() => IsPalindromicNumber(-1234654321), message: "number cannot be less than zero");
 
         [Test]
         [Order(2)]
