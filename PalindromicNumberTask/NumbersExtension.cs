@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace PalindromicNumberTask
 {
@@ -15,7 +15,30 @@ namespace PalindromicNumberTask
         /// <exception cref="ArgumentException"> Thrown when source number is less than zero. </exception>
         public static bool IsPalindromicNumber(int number)
         {
-            throw new NotImplementedException("You need to implement this method.");
+            if (number < 0)
+            {
+                throw new ArgumentException("error");
+            }
+
+            char[] numbers = number.ToString().ToCharArray();
+
+            var len = numbers.Length - 1;
+            for (int i = 0; i < len + 1; i++)
+            {
+                if (numbers[i] == numbers[len - i])
+                {
+                    continue;
+                }
+
+                if (i == len - i)
+                {
+                    return true;
+                }
+
+                return false;
+            }
+
+            return true;
         }
     }
 }
